@@ -42,7 +42,7 @@ open class Camera {
     }
     
     open func start() {
-        foreground {
+        DispatchQueue.main.async {
             self.checkPermission {[weak self] in
                 self?.session.startRunning()
             }
@@ -59,7 +59,7 @@ open class Camera {
                 if let buffer = buffer {
                     let imageData = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(buffer)
                     let image = UIImage(data: imageData!)?.fixedOrientation()
-                    foreground {
+                    DispatchQueue.main.async {
                         next(image)
                     }
                 } else {
@@ -106,7 +106,7 @@ open class Camera {
             // permission dialog not yet presented, request authorization
             AVCaptureDevice.requestAccess(forMediaType: AVMediaTypeVideo) { granted in
                 if granted {
-                    foreground {
+                    DispatchQueue.main.async {
                         next()
                     }
                 }

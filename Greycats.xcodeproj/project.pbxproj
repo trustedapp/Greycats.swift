@@ -13,7 +13,6 @@
 		CFD302C31D51E6AE009779AF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302AB1D51E6AE009779AF /* Camera.swift */; };
 		CFD302C51D51E6AE009779AF /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302AE1D51E6AE009779AF /* Keyboard.swift */; };
 		CFD302C61D51E6AE009779AF /* Polar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302AF1D51E6AE009779AF /* Polar.swift */; };
-		CFD302C81D51E6AE009779AF /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302B11D51E6AE009779AF /* Schedule.swift */; };
 		CFD302CA1D51E6AE009779AF /* Geocode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302B31D51E6AE009779AF /* Geocode.swift */; };
 		CFD302CB1D51E6AE009779AF /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302B51D51E6AE009779AF /* Animation.swift */; };
 		CFD302CC1D51E6AE009779AF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302B61D51E6AE009779AF /* Color.swift */; };
@@ -42,7 +41,6 @@
 		CFD302AB1D51E6AE009779AF /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		CFD302AE1D51E6AE009779AF /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		CFD302AF1D51E6AE009779AF /* Polar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polar.swift; sourceTree = "<group>"; };
-		CFD302B11D51E6AE009779AF /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		CFD302B31D51E6AE009779AF /* Geocode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geocode.swift; sourceTree = "<group>"; };
 		CFD302B51D51E6AE009779AF /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		CFD302B61D51E6AE009779AF /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 				CFD302AE1D51E6AE009779AF /* Keyboard.swift */,
 				CFD302AF1D51E6AE009779AF /* Polar.swift */,
 				CFD302D91D51FA85009779AF /* Filter.swift */,
-				CFD302B11D51E6AE009779AF /* Schedule.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -257,7 +254,6 @@
 				CFD302CE1D51E6AE009779AF /* Path.swift in Sources */,
 				CFD302D21D51E6AE009779AF /* NibView.swift in Sources */,
 				CFD302C61D51E6AE009779AF /* Polar.swift in Sources */,
-				CFD302C81D51E6AE009779AF /* Schedule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
