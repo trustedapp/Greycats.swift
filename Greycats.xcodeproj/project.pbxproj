@@ -10,7 +10,6 @@
 		CF3A50541D8921A0001BDD5C /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A50531D8921A0001BDD5C /* Navigator.swift */; };
 		CFD302C21D51E6AE009779AF /* Breadcrumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302AA1D51E6AE009779AF /* Breadcrumb.swift */; };
 		CFD302C31D51E6AE009779AF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302AB1D51E6AE009779AF /* Camera.swift */; };
-		CFD302C51D51E6AE009779AF /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302AE1D51E6AE009779AF /* Keyboard.swift */; };
 		CFD302C61D51E6AE009779AF /* Polar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302AF1D51E6AE009779AF /* Polar.swift */; };
 		CFD302CA1D51E6AE009779AF /* Geocode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302B31D51E6AE009779AF /* Geocode.swift */; };
 		CFD302CB1D51E6AE009779AF /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302B51D51E6AE009779AF /* Animation.swift */; };
@@ -18,7 +17,6 @@
 		CFD302CD1D51E6AE009779AF /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302B71D51E6AE009779AF /* Graphics.swift */; };
 		CFD302CE1D51E6AE009779AF /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302B81D51E6AE009779AF /* Path.swift */; };
 		CFD302CF1D51E6AE009779AF /* UIImage+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302B91D51E6AE009779AF /* UIImage+Extention.swift */; };
-		CFD302D01D51E6AE009779AF /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302BB1D51E6AE009779AF /* Designable.swift */; };
 		CFD302D41D51E6AE009779AF /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302BF1D51E6AE009779AF /* Stack.swift */; };
 		CFD302D51D51E6AE009779AF /* TableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302C01D51E6AE009779AF /* TableViewData.swift */; };
 		CFD302D61D51E6AE009779AF /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302C11D51E6AE009779AF /* NavigationViewController.swift */; };
@@ -36,7 +34,6 @@
 		CFC557181A7DF729001951DE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CFD302AA1D51E6AE009779AF /* Breadcrumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Breadcrumb.swift; sourceTree = "<group>"; };
 		CFD302AB1D51E6AE009779AF /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
-		CFD302AE1D51E6AE009779AF /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		CFD302AF1D51E6AE009779AF /* Polar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polar.swift; sourceTree = "<group>"; };
 		CFD302B31D51E6AE009779AF /* Geocode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geocode.swift; sourceTree = "<group>"; };
 		CFD302B51D51E6AE009779AF /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
@@ -44,7 +41,6 @@
 		CFD302B71D51E6AE009779AF /* Graphics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
 		CFD302B81D51E6AE009779AF /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		CFD302B91D51E6AE009779AF /* UIImage+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extention.swift"; sourceTree = "<group>"; };
-		CFD302BB1D51E6AE009779AF /* Designable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
 		CFD302BF1D51E6AE009779AF /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		CFD302C01D51E6AE009779AF /* TableViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewData.swift; sourceTree = "<group>"; };
 		CFD302C11D51E6AE009779AF /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
@@ -119,7 +115,6 @@
 		CFD302AC1D51E6AE009779AF /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				CFD302AE1D51E6AE009779AF /* Keyboard.swift */,
 				CFD302AF1D51E6AE009779AF /* Polar.swift */,
 				CFD302D91D51FA85009779AF /* Filter.swift */,
 			);
@@ -142,7 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				CFEB14FD1DADE2CA004FF684 /* WrappingView.swift */,
-				CFD302BB1D51E6AE009779AF /* Designable.swift */,
 				CFD302BF1D51E6AE009779AF /* Stack.swift */,
 				CFD302C01D51E6AE009779AF /* TableViewData.swift */,
 			);
@@ -231,12 +225,10 @@
 				CFEB14FE1DADE2CA004FF684 /* WrappingView.swift in Sources */,
 				CFD302CF1D51E6AE009779AF /* UIImage+Extention.swift in Sources */,
 				CFD302C31D51E6AE009779AF /* Camera.swift in Sources */,
-				CFD302C51D51E6AE009779AF /* Keyboard.swift in Sources */,
 				CFD302CC1D51E6AE009779AF /* Color.swift in Sources */,
 				CF3A50541D8921A0001BDD5C /* Navigator.swift in Sources */,
 				CFD302D51D51E6AE009779AF /* TableViewData.swift in Sources */,
 				CFD302CD1D51E6AE009779AF /* Graphics.swift in Sources */,
-				CFD302D01D51E6AE009779AF /* Designable.swift in Sources */,
 				CFD302D81D51FA0D009779AF /* FilterHook.swift in Sources */,
 				CFD302D61D51E6AE009779AF /* NavigationViewController.swift in Sources */,
 				CFD302DA1D51FA85009779AF /* Filter.swift in Sources */,
