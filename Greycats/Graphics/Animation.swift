@@ -171,16 +171,16 @@ extension Animation.Easing {
         case .cubic:
             return t * t * t
         case .sin:
-            return Foundation.sin(t * M_PI / 2)
+            return Foundation.sin(t * Double.pi / 2)
         case .cos:
-            return Foundation.cos(t * M_PI / 2)
+            return Foundation.cos(t * Double.pi / 2)
         case .circle:
             return 1 - sqrt(1 - t * t)
         case .exp:
             return pow(2, 10 * (t - 1))
         case .elastic(let bounciness):
-            let p = bounciness * M_PI
-            return 1 - pow(Foundation.cos(t * M_PI / 2), 3) * Foundation.cos(t * p)
+            let p = bounciness * Double.pi
+            return 1 - pow(Foundation.cos(t * Double.pi / 2), 3) * Foundation.cos(t * p)
         }
     }
 }
