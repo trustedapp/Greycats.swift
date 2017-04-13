@@ -35,11 +35,6 @@ Pod::Spec.new do |s|
     s.source_files = "Greycats/Geocode.swift"
   end
 
-  s.subspec "Navigator" do |s|
-    s.dependency "Greycats/Layout"
-    s.source_files = "Greycats/Navigator.swift"
-  end
-
   s.subspec "Camera" do |s|
     s.dependency "Greycats/Graphics"
     s.dependency "Greycats/Core"
