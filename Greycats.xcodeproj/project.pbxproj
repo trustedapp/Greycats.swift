@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF3A50521D892199001BDD5C /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A50511D892199001BDD5C /* Alertable.swift */; };
 		CF3A50541D8921A0001BDD5C /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A50531D8921A0001BDD5C /* Navigator.swift */; };
 		CFD302C21D51E6AE009779AF /* Breadcrumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302AA1D51E6AE009779AF /* Breadcrumb.swift */; };
 		CFD302C31D51E6AE009779AF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302AB1D51E6AE009779AF /* Camera.swift */; };
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		CF2116371A7DECF10065E3B2 /* Greycats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Greycats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF3A50511D892199001BDD5C /* Alertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alertable.swift; path = Core/Alertable.swift; sourceTree = "<group>"; };
 		CF3A50531D8921A0001BDD5C /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		CFA68DAB1C75F98F007CC9CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		CFC557161A7DF729001951DE /* Greycats.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Greycats.podspec; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 		CF2116391A7DECF10065E3B2 /* Greycats */ = {
 			isa = PBXGroup;
 			children = (
-				CF3A50511D892199001BDD5C /* Alertable.swift */,
 				CFD302AA1D51E6AE009779AF /* Breadcrumb.swift */,
 				CFD302AB1D51E6AE009779AF /* Camera.swift */,
 				CFD302AC1D51E6AE009779AF /* Core */,
@@ -239,7 +236,6 @@
 				CF3A50541D8921A0001BDD5C /* Navigator.swift in Sources */,
 				CFD302D51D51E6AE009779AF /* TableViewData.swift in Sources */,
 				CFD302CD1D51E6AE009779AF /* Graphics.swift in Sources */,
-				CF3A50521D892199001BDD5C /* Alertable.swift in Sources */,
 				CFD302D01D51E6AE009779AF /* Designable.swift in Sources */,
 				CFD302D81D51FA0D009779AF /* FilterHook.swift in Sources */,
 				CFD302D61D51E6AE009779AF /* NavigationViewController.swift in Sources */,
