@@ -16,6 +16,7 @@
 		CFD302D81D51FA0D009779AF /* FilterHook.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302D71D51FA0D009779AF /* FilterHook.swift */; };
 		CFD302DA1D51FA85009779AF /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD302D91D51FA85009779AF /* Filter.swift */; };
 		CFEB14FE1DADE2CA004FF684 /* WrappingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB14FD1DADE2CA004FF684 /* WrappingView.swift */; };
+		DB91E7C1229E82AC0038494D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB91E7C0229E82AC0038494D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		CFD302D71D51FA0D009779AF /* FilterHook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterHook.swift; sourceTree = "<group>"; };
 		CFD302D91D51FA85009779AF /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		CFEB14FD1DADE2CA004FF684 /* WrappingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WrappingView.swift; path = Greycats/Layout/WrappingView.swift; sourceTree = SOURCE_ROOT; };
+		DB91E7C0229E82AC0038494D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			children = (
 				CFD302AA1D51E6AE009779AF /* Breadcrumb.swift */,
 				CFD302AB1D51E6AE009779AF /* Camera.swift */,
+				DB91E7C0229E82AC0038494D /* Extensions.swift */,
 				CFD302AC1D51E6AE009779AF /* Core */,
 				CFD302D71D51FA0D009779AF /* FilterHook.swift */,
 				CFD302B31D51E6AE009779AF /* Geocode.swift */,
@@ -198,6 +201,7 @@
 				CFD302D51D51E6AE009779AF /* TableViewData.swift in Sources */,
 				CFD302D81D51FA0D009779AF /* FilterHook.swift in Sources */,
 				CFD302D61D51E6AE009779AF /* NavigationViewController.swift in Sources */,
+				DB91E7C1229E82AC0038494D /* Extensions.swift in Sources */,
 				CFD302DA1D51FA85009779AF /* Filter.swift in Sources */,
 				CFD302C21D51E6AE009779AF /* Breadcrumb.swift in Sources */,
 				CFD302D41D51E6AE009779AF /* Stack.swift in Sources */,

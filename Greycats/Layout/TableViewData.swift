@@ -288,7 +288,7 @@ open class TableViewData<T: Equatable, U: UITableViewCell>: TableViewSource<T> {
             let key = c(object)
             let data = rendering_cache[key]
             if data == nil {
-                renderCell?(cell, object) {[weak self] _ in
+                renderCell?(cell, object) {[weak self] in
                     let mdata = NSMutableData()
                     let coder = NSKeyedArchiver(forWritingWith: mdata)
                     cell.encodeRestorableState(with: coder)
