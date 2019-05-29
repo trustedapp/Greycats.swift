@@ -87,7 +87,7 @@ open class NavigationViewController: UIViewController, UINavigationControllerDel
         childNavigationController.isNavigationBarHidden = true
         childNavigationController.delegate = self
         self.childNavigationController = childNavigationController
-        addChildViewController(childNavigationController)
+        addChild(childNavigationController)
         let container = childNavigationController.view
         container?.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(container!)
