@@ -231,7 +231,7 @@ open class TableViewDataNib<T: Equatable, U: UITableViewCell>: TableViewData<T, 
     open override func didSetTableView(_ tableView: UITableView) {
         cellIdentifier = "\(U.nibName)-\(section)"
         let nib = UINib(nibName: U.nibName, bundle: Bundle(for: U.self))
-        print("\(self) register cell \(cellIdentifier) \(nib)")
+//        print("\(self) register cell \(cellIdentifier) \(nib)")
         tableView.register(nib, forCellReuseIdentifier: cellIdentifier)
     }
 }
@@ -270,7 +270,7 @@ open class TableViewData<T: Equatable, U: UITableViewCell>: TableViewSource<T> {
     
     open override func didSetTableView(_ tableView: UITableView) {
         cellIdentifier = cellIdentifier ?? "\(className!)-\(section)"
-        print("\(self) register cell \(cellIdentifier)")
+//        print("\(self) register cell \(cellIdentifier)")
         _tableView?.register(U.self, forCellReuseIdentifier: cellIdentifier)
     }
     

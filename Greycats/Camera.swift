@@ -24,7 +24,7 @@ open class Camera {
     
     fileprivate func backCameraDevice() -> AVCaptureDevice? {
         let availableCameraDevices = AVCaptureDevice.devices(for: AVMediaType.video)
-        for device in availableCameraDevices as! [AVCaptureDevice] {
+        for device in availableCameraDevices {
             if device.position == .back {
                 return device
             }
