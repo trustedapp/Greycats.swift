@@ -14,7 +14,7 @@ public protocol SectionData {
     var section: Int { get set }
     var tableView: UITableView? { get set }
     var reversed: Bool { get set }
-    weak var navigationController: UINavigationController? { get set }
+    var navigationController: UINavigationController? { get set }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     func tableView(_ tableView: UITableView, heightForRowAtIndexPath indexPath: IndexPath) -> CGFloat
     func tableView(_ tableView: UITableView, cellForRowAtIndexPath indexPath: IndexPath) -> UITableViewCell!
